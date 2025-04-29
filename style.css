@@ -42,7 +42,7 @@ body {
 
     .informacao1 {
         color: rgb(156, 156, 156);
-        margin-top: 40px;
+        margin-top: 15px;
         font-size: 6px;
         padding: 2%;
     }
@@ -75,7 +75,7 @@ body {
 
     .informacao3 {
         color: rgb(156, 156, 156);
-        margin-top: 40px;
+        margin-top: 2px;
         font-size: 6px;
         padding: 2%;
     }
@@ -92,7 +92,7 @@ body {
 
     .informacao4 {
         color: rgb(156, 156, 156);
-        margin-top: 40px;
+        margin-top: 2px;
         font-size: 6px;
         padding: 2%;
     }
@@ -105,6 +105,68 @@ body {
         border-radius: 10px;
         font-size: 7px;
         display: flex;
+    }
+
+    .informacao5 {
+        color: rgb(156, 156, 156);
+        margin-top: 2px;
+        font-size: 6px;
+        padding: 2%;
+    }
+
+    .cep {
+        background-color: #161717;
+        color: white;
+        margin: 1%;
+        padding: 5%;
+        border-radius: 10px;
+        font-size: 7px;
+        display: flex;
+    }
+
+    input {
+        background-color: #161717;
+        color: white;
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        text-decoration: none;
+        color: rgb(156, 156, 156);
+    }
+
+    .informacoes  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 5vh;
+        width: 400px;
+        color:white;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    .atualizacoes {
+        text-align: center;
+    }
+
+    .ligacoes {
+        text-align: center;
+    }
+
+    .comunidades {
+        text-align: center;
+    }
+
+    .conversas {
+        text-align: center;
+    }
+
+    .configuracoes {
+        color: white;
+        text-align: center;
     }
 
 }
